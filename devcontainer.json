@@ -1,0 +1,13 @@
+{
+  "name": "My Custom OS Environment",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {}
+  },
+  "portsAttributes": {
+    "6080": {
+      "label": "Virtual Desktop",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
